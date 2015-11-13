@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=rollOverLimit
+comment0.target=NumberDisplay(int)
+comment0.text=\r\n\ Constructor\ que\ recibe\ por\ par\u00E1metro\ el\ l\u00EDmite\ del\ display\ \r\n\ y\ que\ fija\ el\ valor\ actual\ del\ display\ a\ 0.\r\n
+comment1.params=replacementValue
+comment1.target=void\ setValue(int)
+comment1.text=\r\n\ M\u00E9todo\ setter\ que\ fija\ el\ valor\ actual\ del\ display\ al\ valor\ pasado\ como\ par\u00E1metro.\r\n\ Si\ el\ valor\ es\ menor\ que\ cero\ no\ hace\ nada\r\n
+numComments=2
