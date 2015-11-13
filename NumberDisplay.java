@@ -30,4 +30,18 @@ public class NumberDisplay
             value = replacementValue;
         }
     }
+    
+    /**
+     * Método que devuelve el valor actual del display en forma de cadena de 2 caracteres
+     * Si el valor es menor que diez, pasara cero
+     */
+    public String getDisplayValue()
+    {
+        if(value < 10) {
+            return "0" + value;
+        }
+        else {
+            return "" + value;
+        }
+    }
 }
