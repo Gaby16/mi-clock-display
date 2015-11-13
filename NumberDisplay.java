@@ -44,4 +44,12 @@ public class NumberDisplay
             return "" + value;
         }
     }
+    
+    /**
+     * Return the current value.
+     */
+    public int getValue()
+    {
+        return value;
+    }
 }
