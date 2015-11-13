@@ -52,4 +52,12 @@ public class NumberDisplay
     {
         return value;
     }
+    
+    /**
+     * Incrementa el valor en uno
+     */
+    public void increment()
+    {
+        value = (value + 1) % limit;
+    }
 }
