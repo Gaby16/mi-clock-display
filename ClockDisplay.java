@@ -23,5 +23,19 @@ public class ClockDisplay
         updateDisplay();
     }
     
+    /**
+     * Constructor for ClockDisplay objects. This constructor
+     * creates a new clock set at the time specified by the 
+     * parameters.
+     */
+    public ClockDisplay(int hour, int minute)
+    {
+        hours = new NumberDisplay(24);
+        minutes = new NumberDisplay(60);
+        setTime(hour, minute);
+    }
+    
+    
+    
    
 }
