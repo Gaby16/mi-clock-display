@@ -46,6 +46,14 @@ public class ClockDisplay
         updateDisplay();
     }
     
+    /**
+     * Return the current time of this display in the format HH:MM.
+     */
+    public String getTime()
+    {
+        return displayString;
+    }
+    
     
     
    
