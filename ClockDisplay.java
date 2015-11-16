@@ -54,6 +54,28 @@ public class ClockDisplay
         return displayString;
     }
     
+    /**
+     * This method should get called once every minute - it makes
+     * the clock display go one minute forward.
+     */
+    public void timeTick()
+    {
+        minutes.increment();
+        if(minutes.getValue() == 0) {
+            hours.increment();
+        }
+        updateDisplay();
+    }
+    
+    /**
+     * Update the internal string that represents the display.
+     */
+    private void updateDisplay()
+    {
+        displayString = hours.getDisplayValue() + ":" + 
+                        minutes.getDisplayValue();
+    }
+    
     
     
    
